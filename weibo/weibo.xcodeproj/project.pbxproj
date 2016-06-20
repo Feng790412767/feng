@@ -15,6 +15,7 @@
 		B28F54F81D17E9BB001767EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28F54F61D17E9BB001767EC /* LaunchScreen.storyboard */; };
 		B28F55031D17E9BB001767EC /* weiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B28F55021D17E9BB001767EC /* weiboTests.m */; };
 		B28F550E1D17E9BB001767EC /* weiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B28F550D1D17E9BB001767EC /* weiboUITests.m */; };
+		B28F551D1D17EB1D001767EC /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = B28F551C1D17EB1D001767EC /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B28F55091D17E9BB001767EC /* weiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B28F550D1D17E9BB001767EC /* weiboUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiboUITests.m; sourceTree = "<group>"; };
 		B28F550F1D17E9BB001767EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B28F551B1D17EB1D001767EC /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		B28F551C1D17EB1D001767EC /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				B28F54EC1D17E9BB001767EC /* AppDelegate.m */,
 				B28F54EE1D17E9BB001767EC /* ViewController.h */,
 				B28F54EF1D17E9BB001767EC /* ViewController.m */,
+				B28F551B1D17EB1D001767EC /* Dog.h */,
+				B28F551C1D17EB1D001767EC /* Dog.m */,
 				B28F54F11D17E9BB001767EC /* Main.storyboard */,
 				B28F54F41D17E9BB001767EC /* Assets.xcassets */,
 				B28F54F61D17E9BB001767EC /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				B28F54F01D17E9BB001767EC /* ViewController.m in Sources */,
 				B28F54ED1D17E9BB001767EC /* AppDelegate.m in Sources */,
+				B28F551D1D17EB1D001767EC /* Dog.m in Sources */,
 				B28F54EA1D17E9BB001767EC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
